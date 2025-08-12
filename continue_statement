@@ -1,0 +1,10 @@
+# used to stop current iteration and continue with next
+
+i = 0
+while i < 50:
+    i += 1
+    if i == 25:
+        continue
+    print(i)
+    
+    # loop skip 25 then continue with next Iteration
